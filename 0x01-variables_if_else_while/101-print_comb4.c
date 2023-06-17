@@ -20,7 +20,7 @@ int main(void)
 			k = '2';
 			while (k <= '9')
 			{
-				if (i == j == k || i == j || i == k || j == k)
+				if ((i == j == k) || (i == j) || (i == k) || (j == k))
 				{
 					k++;
 					continue;
