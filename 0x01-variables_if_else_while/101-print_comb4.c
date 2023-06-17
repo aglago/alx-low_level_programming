@@ -20,7 +20,7 @@ int main(void)
 			k = '2';
 			while (k <= '9')
 			{
-				if ((i == j == k) || (i == j) || (i == k) || (j == k))
+				if ((i == j) || (i == k) || (j == k))
 				{
 					k++;
 					continue;
@@ -33,7 +33,8 @@ int main(void)
 				putchar(i);
 				putchar(j);
 				putchar(k);
-				if ((k != '9') || (k == '9' && j != '8' && i != '7') || (k == '9' && j == '8' && i != '7'))
+				if ((k != '9') || (k == '9' && j != '8' && i != '7') ||
+				(k == '9' && j == '8' && i != '7'))
 				{
 					putchar(',');
 					putchar(' ');
