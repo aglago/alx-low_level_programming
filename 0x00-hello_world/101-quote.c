@@ -16,5 +16,5 @@ int main(void)
 
 	write(file_dsc, message, strlen(message));
 	close(file_dsc);
-	return (0);
+	return (1);
 }
