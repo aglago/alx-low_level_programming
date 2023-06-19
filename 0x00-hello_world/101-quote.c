@@ -11,7 +11,8 @@
 int main(void)
 {
 	int file_dsc = open("/dev/stderr", O_WRONLY);
-	char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char message[] =
+"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	write(file_dsc, message, strlen(message));
 	close(file_dsc);
