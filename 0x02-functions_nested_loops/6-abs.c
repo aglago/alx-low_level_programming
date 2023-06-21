@@ -9,7 +9,7 @@ int _abs(int n)
 	int absolute;
 
 	if (n < 0)
-		absolute = (-)*n;
+		absolute = -*n;
 	else
 		absolute = n;
 	return (absolute);
