@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - prints if lower character
+ * @c: checking the character
  */
 int _islower(int c)
 {
