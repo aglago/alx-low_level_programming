@@ -2,6 +2,7 @@
 /**
  * _islower - prints if lower character
  * @c: checking the character
+ * Return: 1 for character and 0 for anythig else
  */
 int _islower(int c)
 {
