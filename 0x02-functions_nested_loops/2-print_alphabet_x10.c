@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * main - entry
+ * print_alphabet_x10 - prints alphabets
+ * on 10 lines
  */
 void print_alphabet_x10(void)
 {
-	int line = 1;
+	int lines = 1;
 
 	while (lines <= 10)
 	{
 		int alphabet = 97;
+
 		while (alphabet <= 122)
 		{
 			_putchar(alphabet);
