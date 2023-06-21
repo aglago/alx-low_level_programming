@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * _islower - prints if lower character
+ * _isalpha - prints if character
+ * @c: input parameter to check
+ * Return: 1 if character 0 if anything else
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 65 && c <= 122)
 		return (1);
