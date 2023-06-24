@@ -2,19 +2,20 @@
 ## What each file does and its corresponding pseudocode
 
 ### File 8: 8-24_hours.c
-+ function that prints every second and minute, starting from 00:00 to 23:59.
++ function that prints every minute of 24 hours, starting from 00:00 to 23:59.
++ varianles involved: 2; hour, minute.
++ hour < 24 and minute < 60
+  
+*PSEUDOCODE*
 ```sql
 START
-	SET min1, min2, sec1, sec2
-	FOR min1 (0-2)
-		FOR min2 (0-3)
-			FOR sec1 (0-5)
-				FOR sec2 (0-9)
-					PRINT min1 min2 ":" sec1 sec2
-				END FOR
-			END FOR
-		FEND FOR
-	END FOR
+  SET hours, minutes
+
+  FOR hour (0-23)
+    FOR minute (0-59)
+      PRINT hour, ':', minutes
+    END FOR
+  END FOR
 END
 ```
 
