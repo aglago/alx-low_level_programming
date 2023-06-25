@@ -12,8 +12,11 @@ void times_table(void)
 		{
 			int ans = num * t_num;
 
-			if (ans < 10)
+			if (t_num == 0)
+				_putchar(ans + '0');
+			else if (ans < 10)
 			{
+				_putchar(' ');
 				_putchar(ans + '0');
 			}
 			else
