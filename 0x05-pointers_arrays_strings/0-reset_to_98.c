@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * reset_to_98 - taking a pointer to int as parameter
  * and reseting the value to 98
@@ -7,5 +7,5 @@
  */
 void reset_to_98(int *n)
 {
-*n = 98;
+	*n = 98;
 }
