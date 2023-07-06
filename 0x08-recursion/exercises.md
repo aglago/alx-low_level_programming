@@ -5,7 +5,9 @@
 Write a recursive function `factorial` that takes an integer `n` as input and returns the factorial of `n`. The factorial of a non-negative integer `n` is the product of all positive integers less than or equal to `n`. For example, `factorial(5)` should return `5! = 5 * 4 * 3 * 2 * 1 = 120`.
 
 ### Exercise 2: Fibonacci Sequence
-Write a recursive function `fibonacci` that takes an integer `n` as input and returns the nth term in the Fibonacci sequence. The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones. The sequence starts with 0 and 1. For example, `fibonacci(6)` should return `8` because the 6th term in the Fibonacci sequence is 8.
+Write a recursive function `fibonacci` that takes an integer `n` as input and returns the nth term in the Fibonacci sequence. The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones. The sequence starts with 0 and 1.  
+  
+For example, `fibonacci(6)` should return `8` because the 6th term in the Fibonacci sequence is 8.
 
 ### Exercise 3: Binary Search
 Write a recursive function `binarySearch` that takes a sorted array of integers, a search key, and the indices of the lower and upper bounds of the search range. The function should recursively search for the key in the array and return the index where it is found, or -1 if it is not present.
