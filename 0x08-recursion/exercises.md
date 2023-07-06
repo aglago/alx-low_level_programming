@@ -23,6 +23,42 @@ These exercises cover a range of problems that can be effectively solved using r
 
 # Solutions
 ### Exercise 1.
+```c
+#include <stdio.h>
+
+/* 
+Write a recursive function factorial that takes an integer n as input and returns the factorial of n. 
+The factorial of a non-negative integer n is the product of all positive integers less than or equal to n. 
+For example, factorial(5) should return 5! = 5 * 4 * 3 * 2 * 1 = 120.
+
+
+Factorial Formula:
+num! = num * (num - 1)!
+*/
+
+unsigned int factorial(int num);
+
+int main(void)
+{
+	int n, fact;
+	printf("Enter a number: ");
+	scanf("%d", &n);
+	
+	fact = factorial(n);
+	printf("Factorial of %d is: %d", n, fact);
+}
+
+unsigned int factorial(int num)
+{
+	// base case
+	if (num <= 1)
+		return (1);
+	return num * factorial(num - 1); // recursive phase
+}
+```
+
+
+
 
 ### Exercise 2
 ```c
