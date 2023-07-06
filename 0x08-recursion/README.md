@@ -42,7 +42,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Exercises
 Below are some practices you can try your hands on to test your understanding of the resources you learnt.
-+ [Try your hands on these to test your understanding](./exercises.md)
++ [TEST YOUR UNDERSTANDING](./exercises.md)
 
 
 ## Projects
