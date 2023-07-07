@@ -4,3 +4,4 @@ for file in *.c; do
     gcc -c "$file" -o "$output_file"
 done
 ar rcs liball.a *.c
+nm liball.a
