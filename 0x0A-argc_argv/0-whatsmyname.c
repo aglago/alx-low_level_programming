@@ -13,6 +13,7 @@
 
 int main(int argc, char *argv[])
 {
+	(void)argc; /** casted argc to void to indicate it is intentionally unused */
 	printf("%s\n", argv[0]);
 
 	return (0);
