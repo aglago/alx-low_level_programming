@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -21,7 +22,8 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (sscanf(argv[i], "%d", &arg) == 1)
+			arg = atoi(argv[i]);
+			if (arg != 0 || argv[i][0] == '0')
 				sum += arg;
 			else
 			{
