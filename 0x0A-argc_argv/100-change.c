@@ -16,7 +16,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, coins = 0, cents;
+	int i, j, coins = 0, cents;
 	int deno[] = {25, 10, 5, 2, 1};
 
 	/** checks for valid number of arguments */
@@ -26,6 +26,16 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
+
+	/** checking if each character is a number */
+	for (j = 0; argv[1][j] != '\0'; j++)
+	{
+		if (argv[1][j] < '0' || argv[1][j] > '9')
+		{
+			printf("Error\n");
+			return (1);
+		}
+	}
 
 	/** parsing string to number */
 	cents = atoi(argv[1]);
