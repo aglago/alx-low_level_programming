@@ -13,7 +13,6 @@
  * Return: always 0 if success
  */
 
-
 int main(int argc, char *argv[])
 {
 	int i, j, coins = 0, cents;
@@ -25,7 +24,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 
 	/** checking if each character is a number */
 	for (j = 0; argv[1][j] != '\0'; j++)
@@ -40,11 +38,8 @@ int main(int argc, char *argv[])
 	/** parsing string to number */
 	cents = atoi(argv[1]);
 
+	/** cents should be greater than 1 */
 
-	/**
-	 * if cents passed is less than 1, minimum coins
-	 * will be zero
-	 */
 	if (cents < 1)
 	{
 		printf("0\n");
