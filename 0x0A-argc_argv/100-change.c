@@ -3,9 +3,12 @@
 
 /**
  * main - entry point
- * 
+ *
  * desc: program returns minimum coins
  * required for change for a given amt
+ *
+ * @argc: argument count
+ * @argv: argument array
  *
  * Return: always 0 if success
  */
@@ -44,4 +47,6 @@ int main(int argc, char *argv[])
 		cents = cents % deno[i];
 	}
 	printf("%d\n", coins);
+
+	return (0);
 }
