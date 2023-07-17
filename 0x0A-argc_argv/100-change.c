@@ -42,17 +42,16 @@ int main(int argc, char *argv[])
 	if (cents < 1)
 	{
 		printf("0\n");
+		return (1);
 	}
-	else
+
+	/** finding minimum coins */
+	for (i = 0; i < 5; i++)
 	{
-		/** finding minimum coins */
-		for (i = 0; i < 5; i++)
-		{
-			coins = coins + cents / deno[i];
-			cents = cents % deno[i];
-		}
-		printf("%d\n", coins);
+		coins = coins + cents / deno[i];
+		cents = cents % deno[i];
 	}
+	printf("%d\n", coins);
 
 	return (0);
 }
