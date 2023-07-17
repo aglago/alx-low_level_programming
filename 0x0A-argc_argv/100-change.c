@@ -39,19 +39,20 @@ int main(int argc, char *argv[])
 	cents = atoi(argv[1]);
 
 	/** cents should be greater than 1 */
-
 	if (cents < 1)
 	{
 		printf("0\n");
 	}
-
-	/** finding minimum coins */
-	for (i = 0; i < 5; i++)
+	else
 	{
-		coins = coins + cents / deno[i];
-		cents = cents % deno[i];
+		/** finding minimum coins */
+		for (i = 0; i < 5; i++)
+		{
+			coins = coins + cents / deno[i];
+			cents = cents % deno[i];
+		}
+		printf("%d\n", coins);
 	}
-	printf("%d\n", coins);
 
 	return (0);
 }
