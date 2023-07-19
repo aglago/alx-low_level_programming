@@ -26,7 +26,7 @@ The repository is structured into different directories, each corresponding to a
 
 ## Topics Covered
 The repository has covered the following low level programming in C topics so far:
-+ [0. Hello Word, C Basics]()
++ [0. Hello Word, C Basics](./0x00-hello_world/)
 + [1. Variables, Conditionals and Loops](./0x01-variables_if_else_while/)
 + [2. Functions and Nested Loops](./0x02-functions_nested_loops/)
 + [3. Debugging](./0x03-debugging/)
