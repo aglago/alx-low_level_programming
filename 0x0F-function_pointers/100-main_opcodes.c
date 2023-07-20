@@ -6,7 +6,8 @@
  * @argc: The number of arguments (including the program name)
  * @argv: Array of pointers to strings containing the arguments
  *
- * Return: Always 0
+ * Return: 0 on success, 1 for incorrect number of arguments,
+ *         2 for negative number of bytes.
  */
 int main(int argc, char *argv[])
 {
@@ -30,8 +31,7 @@ int main(int argc, char *argv[])
 	unsigned char *ptr = (unsigned char *)main;
 	for (i = 0; i < num_bytes; i++)
 	{
-		printf("%02x ", *ptr);
-		ptr++;
+		printf("%02x ", ptr[i]);
 	}
 	printf("\n");
 
