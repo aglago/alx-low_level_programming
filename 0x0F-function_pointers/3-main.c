@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	f = atoi(argv[1]);
 	s = atoi(argv[3]);
 
-	if (strcmp(argv[2], "/") == 0 && s == 0)
+	if ((strcmp(argv[2], "/") == 0 || strcmp(argv[2], "%") == 0) && s == 0)
 	{
 		printf("Error\n");
 		return (100);
