@@ -41,6 +41,9 @@ The repository has covered the following low level programming in C topics so fa
 + [C. More Dynamic Allocation of Memory]()
 + [D. Pre-processor](./0x0D-preprocessor/)
 + [E. C structures and Typedef](./0x0E-structures_typedef/)
++ [F. C Function Pointers](./0x0F-function_pointers/)
++ [10. C Variadic Functions](./0x10-variadic_functions/)
++ [11. C printf (user defined printf function](./printf)
 
 
 ## Contributing
