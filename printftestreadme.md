@@ -70,7 +70,6 @@ int main(void)
 
 - The buffer handling of the standard C library `printf` function does not need to be reproduced in this custom implementation.
 
-- Remember to regularly commit your changes to the GitHub repository as you progress with the project.
 
 ## Collaborators
 
