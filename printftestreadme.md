@@ -39,7 +39,7 @@ Additionally, the following conversion specifiers for integers will also be hand
 
 ## Instructions
 
-1. Clone the repository from GitHub: [printf](https://github.com/username/printf).
+1. Clone the repository from GitHub: [printf](https://github.com/amimanye/printf).
 
 2. Implement the custom `_printf` function in the provided source files. You are required to handle the specified conversion specifiers: `%c`, `%s`, `%%`, `%d`, and `%i`.
 
