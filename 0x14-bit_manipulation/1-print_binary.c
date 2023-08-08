@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_binary - prints a number in binary
@@ -8,7 +9,7 @@
 
 void print_binary(unsigned long int n)
 {
-	int i, j, arr[98], remain, count = 0;
+	int i, arr[98], remain, count = 0;
 
 	i = 0;
 	do {
