@@ -1,28 +1,26 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_binary - prints a number in binary
- * @n: unsigned long integer to print it's binary
- * Return: nothing
+ * print_binary - Prints binary equivalent of a decimal number
+ * @n:The number to print in binary
  */
-
 void print_binary(unsigned long int n)
 {
-	int i, arr[98], remain, count = 0;
+	int i, count = 0;
+	unsigned long int current;
 
-	i = 0;
-	do {
-		remain = n % 2;
-		arr[i] = remain;
-		n = n / 2;
-		i++;
-		count++;
-	} while (n);
-
-	while (count)
+	for (i = 63; i >= 0; i--)
 	{
-		printf("%d", arr[count - 1]);
-		count--;
+		current = n >> i;
+
+		if (current & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
 	}
+	if (!count)
+		_putchar('0');
 }
