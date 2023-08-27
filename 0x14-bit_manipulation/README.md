@@ -1,2 +1,0 @@
-C - Bit manipulation
-DONE BY: OKAFOR SALVATION EMEKA
