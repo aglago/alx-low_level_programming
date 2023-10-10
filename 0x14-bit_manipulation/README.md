@@ -1,2 +1,2 @@
 C - Bit manipulation
-DONE BY: OKAFOR SALVATION EMEKA
+DONE BY: Ami Manye
