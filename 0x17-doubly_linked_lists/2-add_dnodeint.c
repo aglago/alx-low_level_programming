@@ -5,6 +5,8 @@
  * @head: double pointer to head
  * @n: data section to append infront of dll
  * Return: address of new node
+ *
+ * AUTHOR - Ami Manye
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
