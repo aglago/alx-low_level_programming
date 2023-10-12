@@ -4,3 +4,6 @@
 
 #### [1-dlistint_len.c](./1-dlistint_len.c)
 - function that returns the number of nodes in a dll
+
+#### [2-add_dnodeint.c](./2-add_dnodeint.c)
+- function that adds a new node at the beginning of a dlistint_t list.
