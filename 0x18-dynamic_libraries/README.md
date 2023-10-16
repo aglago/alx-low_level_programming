@@ -50,7 +50,7 @@ Here's how you can use `$LD_LIBRARY_PATH`:
 
 It's important to use `$LD_LIBRARY_PATH` with caution, especially when setting it permanently, as it can affect the behavior of all programs that rely on dynamic/shared libraries. Misusing it can lead to library conflicts and system instability. Be sure to set it only when necessary and for the specific use case.
 
-### [What are the differences between static and shared libraries]((https://github.com/aglago/Sofware-Engineering/tree/master/0x02.%20Low-level%20programming%20%26%20Algorithm/Hatching%20out/0x09.%20C%20-%20Static%20libraries)
+### [What are the differences between static and shared libraries](https://github.com/aglago/Sofware-Engineering/tree/master/0x02.%20Low-level%20programming%20%26%20Algorithm/Hatching%20out/0x09.%20C%20-%20Static%20libraries)
 
 ### Basic usage `nm`, `ldd`, `ldconfig`
 Here are some basic usages of the `nm`, `ldd`, and `ldconfig` commands in Unix-like systems, which are often used to inspect and manage libraries:
