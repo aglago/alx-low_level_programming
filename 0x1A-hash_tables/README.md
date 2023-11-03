@@ -26,6 +26,16 @@ Cons:
 
 For non-cryptographic use cases where security isn't a concern, DJB2 can be a good choice due to its speed and simplicity. However, for cryptographic applications or when a more robust hash function is needed, consider using stronger alternatives like SHA-256 or SHA-3. Additionally, for hash tables with a risk of collision, you may want to use a more advanced hash function to improve distribution and reduce clustering.
 
+### Task 2
+- File: [2-key_index.c](./2-key_index.c)
+- Function: function that gives you the index of a key
+- Notes:
+
+### Task 3
+- File: [3-hash_table_set.c](./3-hash_table_set.c)
+- Function: function that adds an element to the hash table.
+- Notes: (nil)
+
 ## Learning Objectives
 ### What is a hash function ?
 A hash function is a mathematical function that takes an input (or "message") and returns a fixed-size string of characters, which is typically a hexadecimal number. The output, often referred to as the hash code or hash value, is a unique representation of the input data. Hash functions are commonly used in computer science and cryptography for various purposes, including data indexing, data retrieval, and data integrity verification.
