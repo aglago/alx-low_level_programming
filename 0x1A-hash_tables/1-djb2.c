@@ -2,7 +2,7 @@
 
 /**
  * hash_djb2 - hash function created on the djb2 algorithm
- * @key: the key
+ * @str: the key
  * Return: the hash value which will be the index
  */
 unsigned long int hash_djb2(const unsigned char *str)
