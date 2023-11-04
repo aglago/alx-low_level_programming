@@ -8,19 +8,19 @@
  */
 hash_node_t *create_item(const char *key, const char *value)
 {
-        /* create new item */
-        hash_node_t *item = malloc(sizeof(hash_node_t));
+	/* create new item */
+	hash_node_t *item = malloc(sizeof(hash_node_t));
 
-        /* allocate space for item values */
-        item->key = malloc(strlen(key) + 1);
-        item->value = malloc(strlen(value) + 1);
+	/* allocate space for item values */
+	item->key = malloc(strlen(key) + 1);
+	item->value = malloc(strlen(value) + 1);
 
-        /* set item values */
-        strcpy(item->key, key);
-        strcpy(item->value, value);
+	/* set item values */
+	strcpy(item->key, key);
+	strcpy(item->value, value);
 
-        /* return the created item */
-        return (item);
+	/* return the created item */
+	return (item);
 }
 
 /**
