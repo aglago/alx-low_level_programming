@@ -43,7 +43,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	item = create_item(key, value);
 
 	/* fetch the index at which this item will be according to hash function */
-	index = hash_djb2((const unsigned char *)key);
+	index = hash_djb2((const unsigned char *)key % 1024);
 
 	/* check if element at that index is NULL */
 	current_item = ht->array[index];
