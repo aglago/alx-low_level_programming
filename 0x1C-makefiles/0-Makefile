@@ -1,0 +1,6 @@
+all: main.o school.o m.o
+main.o: main.c
+school.o: school.c
+m.h:
+gcc $(CC) -c m.h -o m.o
+gcc main.o school.o -o school
