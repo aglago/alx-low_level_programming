@@ -8,12 +8,13 @@
  * @array: pointer to the first element of the array to search in
  * @size: number of elements in array
  * @value: value to search for
- * 
+ *
  * Return: index or -1
  */
 int jump_search(int *array, size_t size, int value)
 {
 	int js = sqrt((int)size), i = 0, j = 0;
+
 	if (!array)
 		return (-1);
 
@@ -29,7 +30,7 @@ int jump_search(int *array, size_t size, int value)
 	{
 		printf("Value checked array[%d] = [%d]\n", j, array[j]);
 		if (array[j] == value)
-			return j;
+			return (j);
 	}
 
 	return (-1);
